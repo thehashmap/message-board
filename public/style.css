@@ -1,0 +1,97 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #005877;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+a {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  color: white;
+  background-color: #53899e;
+  text-decoration: none;
+  box-shadow: 0 3px 7px #00577759;
+  padding: 10px;
+  border-radius: 5px;
+  width: 320px;
+  transition: 0.2s ease;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+a:hover {
+  background-color: white;
+  color: #53899e;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+ul li {
+  margin-bottom: 20px;
+  box-shadow: 0 3px 7px #00577759;
+  padding: 10px;
+  border-radius: 5px;
+  width: 700px;
+  transition: 0.2s ease;
+  position: relative;
+  left: -20px;
+  font-size: 1.5em;
+}
+
+ul li:hover {
+  left: 0px;
+}
+
+sub {
+  /* font-weight: bold; */
+  /* color: rgb(138, 138, 138); */
+  opacity: 0.7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  width: 360px;
+  margin-bottom: 15px;
+  transition: 0.2s ease;
+}
+
+#author {
+  height: 40px;
+}
+
+#message {
+  height: 100px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 2px 5px #00577759;
+}
+
+input[type="submit"] {
+  background-color: #53899e;
+  color: white;
+  height: 50px;
+}
